@@ -1,5 +1,5 @@
 # GAN-implementation
-[
+
 from numpy import zeros, ones, expand_dims, asarray
 from numpy.random import randn, randint
 from keras.datasets import fashion_mnist
@@ -118,7 +118,7 @@ def train(g_model, d_model, gan_model, X_train, latent_dim, n_epochs=100, n_batc
             
             latent_dim = 100
 train(generator, discriminator, gan_model, X_train, latent_dim, n_epochs=2, n_batch=64)
-]
+
 
 
 
